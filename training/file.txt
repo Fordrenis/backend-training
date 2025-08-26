@@ -1,6 +1,2 @@
 яблоко-apple
-камень-stone
-андрей-andrew
-андрей барабан-
-ccc-ttt
-Иван болван-Ivan bolvan
+
