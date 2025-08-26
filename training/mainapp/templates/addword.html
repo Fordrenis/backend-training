@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %} Add word {% endblock %}
+
+
+{% block content %}
+<div class="spisok">
+    <form method="POST" action="">
+        {% csrf_token %}
+        <label >original:</label>
+        <input type="text" name="word1" style="text-align: left">
+        <br><br>
+        <label >translate:</label>
+        <input type="text" name="word2">
+        <br><br>
+        <input type="submit" value="Отправить">
+    </form>
+</div>
+
+{% endblock %}

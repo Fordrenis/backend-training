@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %} Words list {% endblock %}
+
+{% block content %}
+<div class="spisok">
+    <table class="words_list">
+        <tr>
+            <td class="headerus"><b>original</b></td>
+            <td class="headerus"><b>translate</b></td>
+        </tr>
+        {% for i in spk %}
+            <tr>
+                {% for j in i %}
+                <td>{{ j }}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+
+{% endblock %}
